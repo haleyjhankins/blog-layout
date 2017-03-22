@@ -1,0 +1,51 @@
+
+.circle{
+	background-color: black;
+	border-radius: 100%;
+	width: 110px;
+	height: 110px;
+	margin: 0 auto;
+	display: inline-block;
+	margin-top: 1px;
+	position: absolute;
+	margin-left: 65px;
+	margin-top: 130px;
+}
+
+.sidebar img{
+	border-radius: 100%;
+  height: 100px;
+  margin: 0 auto;
+  position: relative;
+  top: -65px;
+  width: 100px;
+	margin-bottom: 4px;
+	margin-left:70px;
+}
+
+.sidebar h2 {
+	font-size: 1em;
+	color: black;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: helvetica;
+	display: block;
+}
+
+.sidebar h3{
+	font-size: 1em;
+	text-align: center;
+	padding-top: 20px;
+	color: rgb(52, 57, 57);
+}
+
+.sidebar, .content {
+  height: 700px;
+}
+
+.sidebar {
+  background-color: grey;
+  float: left;
+  width: 25%;
+}
